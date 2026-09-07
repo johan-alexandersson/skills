@@ -1,6 +1,6 @@
 ---
 name: ideation
-description: Diverge-and-converge dialogue that develops a vague sub-idea into shape, one question at a time. Updates a branch in IDEA-TREE.md and terms in GLOSSARY.md. Use standalone to explore or articulate a vague idea before committing to a design, or when pathfinder dispatches an ideation task.
+description: Diverge-and-converge dialogue that develops a vague sub-idea into shape — fanning out many directions before narrowing to one. Updates a branch in IDEA-TREE.md and terms in GLOSSARY.md. Use standalone to explore or articulate a vague idea before committing to a design, or when pathfinder dispatches an ideation task.
 ---
 
 # ideation
@@ -11,30 +11,35 @@ Invoke with any unformed idea or question — either directly, or as a task disp
 
 The skill will:
 1. Restate the idea in your words — correct it if needed
-2. Ask one question at a time to explore the idea space
+2. Fan the idea space out — many named directions per round, for you to react to and add to
 3. Go deep on whichever branch you find most interesting
 4. Write back to the relevant branch in IDEA-TREE.md (creating one from pathfinder's IDEA-TREE-TEMPLATE.md if none exists yet) and to GLOSSARY.md
 
 ## Workflows
 
-### Diverge — explore the space
-- Accept every direction with yes-and language, no evaluation yet
-- Ask breadth-first: open multiple angles before committing to depth
-- Track each direction as a branch, or sub-branch if deepening a branch dispatched from pathfinder
-- Detect saturation: when new branches are minor variations, offer to converge
+### Diverge — generate the space
+- Generate in volume: put a batch of directions on the board each round — aim for 6–10, not 2 — rather than asking the user to supply them
+- Range, don't vary: push each direction along a different axis — mechanism, audience, scale, medium, a constraint removed — so the batch spans the space instead of orbiting one point. Include one or two deliberately far-out entries; the cheap ones sharpen the plausible ones
+- Name every direction so it can be referred to later, and track it as a branch — or a sub-branch, when deepening a branch dispatched from pathfinder
+- Close each round with one open question that invites the user to add or redirect — never one that asks them to pick
+- Park choices, keep fanning out: when the user chooses or rejects mid-diverge, acknowledge the pull, record it as a signal for converge, leave the branch on the board, and keep generating. Don't argue, don't drop anything
+- No evaluation: no pros and cons, no ranking, no recommending, no "the problem with that is"
+- Detect saturation: when new directions are minor variations, or the user has parked several choices, offer to converge — the offer, not the decision
 
 ### Converge — pick a direction
-- Present the branches explored as a summary
+- Present every direction generated as a summary, parked and rejected ones included — nothing silently dropped
+- Replay the parked signals as input to the choice: "you reached for A twice"
 - Ask which direction feels most alive — don't choose for the user
 - Switch to depth-first on the chosen branch: implications, dependencies, sub-concepts
 
 ### Document — capture what crystallizes
 - Add terms to GLOSSARY.md only when their definition has stabilized through dialogue
 - Update the branch's task line in IDEA-TREE.md when it resolves — one-line answer, unpursued directions noted as open threads
+- Land the directions not pursued in *Open threads* or Seeds — a round of volume isn't thrown away because one direction won
 - Flag naming divergence: "You've called this both X and Y — pick one?"
 
 ## Rules
-- One question at a time, always
-- No "but" or "however" during the diverge phase
+- Diverge generates in volume; one question at a time governs converge and document
+- Park the user's choices — don't act on them until converge
 - Adopt user's terminology immediately; never introduce competing names
 - Use GLOSSARY-TEMPLATE.md for glossary structure; use pathfinder's IDEA-TREE-TEMPLATE.md if no idea tree exists yet
