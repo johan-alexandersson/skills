@@ -5,7 +5,7 @@ description: Investigate a question against high-trust primary sources and captu
 
 # research
 
-Spin up a **background agent** to do the research, so you keep working while it reads. If this is a task dispatched from `/pathfinder`, the question comes from the task's line in IDEA-TREE.md.
+Spin up a **background agent** to do the research, so you keep working while it reads. Always use Sonnet 5 for sub-agents. If this is a task dispatched from `/pathfinder`, the question comes from the task's line in IDEA-TREE.md.
 
 Its job:
 
