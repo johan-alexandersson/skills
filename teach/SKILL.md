@@ -1,6 +1,6 @@
 ---
 name: teach
-description: Teach the user a new skill or concept, within this workspace.
+description: Teach a topic over multiple sessions as interactive HTML lessons in a teaching workspace. Use when the user wants to learn something, not just be told it.
 disable-model-invocation: true
 argument-hint: "What would you like to learn about?"
 ---

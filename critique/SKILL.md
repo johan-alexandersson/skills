@@ -1,6 +1,6 @@
 ---
 name: critique
-description: Critiques and deepen plans and software design, challenging it against existing design and documentation and sharpens terminology. Uses ARCHITECTURE.md, GLOSSARY.md and IDEA-TREE.md as ground truth. Produces DECISIONS.md and keeps ARCHITECTURE.md and GLOSSARY.md current. Use when designing or reviewing software architecture, planning features, or moving from ideation to implementation.
+description: Challenge a plan or design one hard question at a time until the decisions crystallize into DECISIONS.md and ARCHITECTURE.md. Use when a design needs pressure-testing before it is built.
 ---
 
 # Critique 

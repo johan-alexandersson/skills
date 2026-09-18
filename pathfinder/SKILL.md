@@ -1,6 +1,6 @@
 ---
 name: pathfinder
-description: Breaks down a large, undefined problem into an idea tree of small, independently resolvable tasks — research, ideation, prototyping, critique, or manual — each sized for one session. Produces and maintains IDEA-TREE.md and GLOSSARY.md. Use when a problem is too big or too undefined to tackle directly and needs to be broken down before it can be worked.
+description: Break a large, undefined problem into an idea tree of session-sized tasks, maintained in IDEA-TREE.md and GLOSSARY.md. Use when a problem is too big or too vague to tackle directly.
 ---
 
 # pathfinder

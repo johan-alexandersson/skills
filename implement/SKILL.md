@@ -1,6 +1,6 @@
 ---
 name: implement
-description: Implement the tickets produced by /define — test-first at the seams the ticket already names, typechecked and tested as you go, reviewed along Standards and Spec axes, and committed per ticket on a branch. Last stage of the pathfinder → critique → define → implement chain. Use when tickets are ready to build.
+description: Build the tickets /define produced — test-first, reviewed, committed per ticket. Use when tickets are ready to build.
 disable-model-invocation: true
 ---
 

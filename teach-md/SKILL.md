@@ -1,6 +1,6 @@
 ---
 name: teach-md
-description: Teach the user a new skill or concept from a prewritten, Markdown-only curriculum, within this workspace.
+description: Teach a topic from a prewritten, Markdown-only curriculum. Use when the user wants a written course rather than interactive HTML lessons.
 disable-model-invocation: true
 argument-hint: "What would you like to learn about?"
 ---

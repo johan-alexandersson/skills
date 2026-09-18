@@ -1,6 +1,6 @@
 ---
 name: prototype
-description: Build a throwaway artifact to answer a design or logic question. Use when the user wants to sanity-check whether something feels right before committing to it — including when pathfinder dispatches a prototyping task.
+description: Build a throwaway artifact to answer a design or logic question. Use when something needs to be tried before it is committed to.
 ---
 
 # prototype

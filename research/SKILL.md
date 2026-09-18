@@ -1,6 +1,6 @@
 ---
 name: research
-description: Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent — including when pathfinder dispatches a research task.
+description: Investigate a question against primary sources and save cited findings as Markdown. Use when facts, docs or API details need gathering.
 ---
 
 # research

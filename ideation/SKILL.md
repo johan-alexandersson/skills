@@ -1,6 +1,6 @@
 ---
 name: ideation
-description: Diverge-and-converge dialogue that develops a vague sub-idea into shape — fanning out many directions before narrowing to one. Updates a branch in IDEA-TREE.md and terms in GLOSSARY.md. Use standalone to explore or articulate a vague idea before committing to a design, or when pathfinder dispatches an ideation task.
+description: Diverge and converge on one vague idea until it has shape. Use when an idea is too unformed to design against yet.
 ---
 
 # ideation

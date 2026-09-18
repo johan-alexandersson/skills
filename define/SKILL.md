@@ -1,6 +1,6 @@
 ---
 name: define
-description: Synthesize the current conversation into a spec, then capture it as tickets — one spec-update ticket per changing module plus vertical-slice implementation tickets — in the repo's system of record. No interview; deepens via /critique when context is thin. Use when a conversation has converged on a change and you're ready to turn it into tracked, agent-ready work.
+description: Turn a converged conversation into a spec and agent-ready tickets. Use when the design is settled and ready to become tracked work.
 disable-model-invocation: true
 ---
 
