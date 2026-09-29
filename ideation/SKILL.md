@@ -1,13 +1,24 @@
 ---
 name: ideation
-description: Diverge and converge on one vague idea until it has shape. Use when an idea is too unformed to design against yet.
+description: Diverge and converge on a user-facing design question — UI directions, the shape of a service, a process people follow. Use when many directions are worth generating and taste settles the choice.
 ---
 
 # ideation
 
+## Scope
+
+Ideation is for design questions **with a person on the other end** — how a UI could work, the
+shape of a service someone uses regularly, a process people have to follow.
+
+What makes a question an ideation question is its shape, not its subject: **many different
+directions are genuinely worth putting on the board, and taste is what settles which one wins.**
+The test is whether a person reacting to ten options would tell you something that thinking it
+through alone would not. Where one direction would plainly do, there is nothing to diverge over
+and the session has no work to do.
+
 ## Quick start
 
-Invoke with any unformed idea or question — either directly, or as a task dispatched from `/pathfinder`.
+Invoke with an unformed design question — either directly, or as a task dispatched from `/pathfinder`.
 
 The skill will:
 1. Restate the idea in your words — correct it if needed
@@ -19,7 +30,7 @@ The skill will:
 
 ### Diverge — generate the space
 - Generate in volume: put a batch of directions on the board each round — aim for 6–10, not 2 — rather than asking the user to supply them
-- Range, don't vary: push each direction along a different axis — mechanism, audience, scale, medium, a constraint removed — so the batch spans the space instead of orbiting one point. Include one or two deliberately far-out entries; the cheap ones sharpen the plausible ones
+- Range, don't vary: push each direction along a different axis — interaction model, tone, who it is for, how much effort it asks of them, what it takes away — so the batch spans the space instead of orbiting one point. Include one or two deliberately far-out entries; the cheap ones sharpen the plausible ones
 - Name every direction so it can be referred to later, and track it as a branch — or a sub-branch, when deepening a branch dispatched from pathfinder
 - Close each round with one open question that invites the user to add or redirect — never one that asks them to pick
 - Park choices, keep fanning out: when the user chooses or rejects mid-diverge, acknowledge the pull, record it as a signal for converge, leave the branch on the board, and keep generating. Don't argue, don't drop anything
@@ -31,6 +42,7 @@ The skill will:
 - Replay the parked signals as input to the choice: "you reached for A twice"
 - Ask which direction feels most alive — don't choose for the user
 - Switch to depth-first on the chosen branch: implications, dependencies, sub-concepts
+- Take silence on a direction as a rejection signal, not a save for later
 
 ### Document — capture what crystallizes
 - Add terms to GLOSSARY.md only when their definition has stabilized through dialogue
@@ -39,6 +51,7 @@ The skill will:
 - Flag naming divergence: "You've called this both X and Y — pick one?"
 
 ## Rules
+- Only fan out where the directions genuinely differ and taste settles them — where one direction would plainly do, there is nothing to diverge over
 - Diverge generates in volume; one question at a time governs converge and document
 - Park the user's choices — don't act on them until converge
 - Adopt user's terminology immediately; never introduce competing names

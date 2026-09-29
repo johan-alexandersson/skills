@@ -31,6 +31,7 @@ Rule numbers are stable ids that other skills cite. A removed rule leaves a gap.
 10. **Rule of three.** Forcing ideas into groups of three. Use the natural number.
 11. **Synonym cycling.** Protagonist, main character, central figure, hero all in one paragraph. Pick one, repeat it.
 12. **False ranges.** "from X to Y" where X and Y aren't on a meaningful scale. List topics directly.
+13. **Importance framing.** "Load-bearing" or "The key takeaway is...". Just state the fact or instruction. Don't frame it as a lesson or moral or use analoguous words.
 
 ### Style
 

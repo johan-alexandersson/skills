@@ -21,7 +21,7 @@ A big problem arrives wrapped in the unknown: the way from here to done isn't vi
 Each task is one of five types, dispatched to its own skill (or handled directly for manual work):
 
 - **Research** — reading docs, APIs, or the codebase for facts that inform a decision. Dispatch to `/research`. AFK: can run as a background pass; produces a linked markdown note.
-- **Ideation** — a vague sub-question that needs diverge/converge dialogue to take shape. Dispatch to `/ideation`. HITL: a live conversation; updates the task's branch and GLOSSARY.md.
+- **Ideation** — a user-facing design question with many directions worth generating, settled by taste. Dispatch to `/ideation`. HITL: a live conversation; updates the task's branch and GLOSSARY.md. Technical questions are Critique tasks.
 - **Prototyping** — "does this feel right" questions answered with a cheap, throwaway artifact. Dispatch to `/prototype`. HITL: built and reacted to together.
 - **Critique** — pressure-testing a decision or design until it crystallizes. Dispatch to `/critique`: one challenging question at a time. HITL. Produces DECISIONS.md entries, keeps ARCHITECTURE.md/GLOSSARY.md current.
 - **Task** — manual work that has to happen before a decision can be made, but isn't itself a decision (signing up for a service, provisioning access, moving data so its shape can be seen). No specifying skill: pathfinder hands over a precise checklist and records what was done.
