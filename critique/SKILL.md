@@ -7,13 +7,10 @@ description: Challenge a plan or design one hard question at a time until the de
 
 ## What to do
 
-Invoke with a design description, IDEA-TREE.md, architectural plan, or just "here's
-what I want to build." A codebase does not need to exist yet.
+Invoke with a design description, DESIGN-TREE.md, architectural plan, or just "here's what I want to build." A codebase does not need to exist yet.
 
-Also invoked by `/pathfinder` as its critique task type — this is the idea tree's
-"grilling." When dispatched that way, the question comes from the task's line in
-IDEA-TREE.md, and the resulting DECISIONS.md entry (or resolved GLOSSARY.md term)
-gets linked back there.
+Also invoked by `/pathfinder` as its critique task type — this is the design tree's
+pressure test. When dispatched that way, the question comes from the task in the DESIGN-TREE.md, and the resulting DECISIONS.md entry (or resolved GLOSSARY.md term) gets linked back there.
 
 - Interview me relentlessly about every aspect of the plan.
 - Explore the codebase or documentation to answer questions before asking.
@@ -24,7 +21,7 @@ gets linked back there.
 
 ### Ground — before anything else
 - If a codebase exists: read it first. Answer questions from code before asking the user.
-- Ground truth priority: codebase → ARCHITECTURE.md → docs/specs → IDEA-TREE.md → stated goals.
+- Ground truth priority: codebase → ARCHITECTURE.md → docs/specs → DESIGN-TREE.md → stated goals.
 
 ### Map dependencies
 - Before critiquing any component or feature: what does it depend on? What depends on it?
@@ -46,6 +43,22 @@ gets linked back there.
 2. Future readers need the reasoning — surprising without context
 3. Genuine trade-offs — alternatives were actually evaluated
 
+Anything short of the bar is an answer, not a decision: it goes on the task's line in
+DESIGN-TREE.md.
+
+A decision is provisional — it holds while what it rests on holds. Record that footing in
+**Rests on**: the specific requirements, constraints and goals it assumes.
+
+### Revisit — when a recorded decision's footing has moved
+- Name the change and which **Rests on** items it breaks. An entry without **Rests on** stands on
+  its Context and Why; the new entry always carries **Rests on**.
+- Earlier superseded versions sit in DECISIONS-ARCHIVE.md, reached through **Supersedes**; follow
+  that link when the decision's history bears on the revisit.
+- Critique the decision again from that new footing, as for a fresh one.
+- If it changes, write a new entry with **Supersedes**, and add **Superseded by** to the old
+  one. The old entry's reasoning stays as written — it is the history of how the design moved;
+  `/pruning` later moves it to DECISIONS-ARCHIVE.md.
+
 ### Document
 - Update GLOSSARY.md when a term is challenged and resolved; don't introduce new terms.
 - Write DECISIONS.md entries immediately — don't batch.
@@ -54,5 +67,5 @@ gets linked back there.
 
 ## Rules
 - One question at a time, always
-- Read the codebase and documentation before asking the user — use code and documentatio as the first source of truth
+- Read the codebase and documentation before asking the user — use code and documentation as the first source of truth
 - Use DECISIONS-TEMPLATE.md and GLOSSARY-TEMPLATE.md for output structure

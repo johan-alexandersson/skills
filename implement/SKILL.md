@@ -7,7 +7,7 @@ disable-model-invocation: true
 # implement
 
 Build the work captured as **tickets** by `/define`. This is the last stage of the
-`/pathfinder` → `/critique` → `/define` → `/implement` chain: pathfinder grew the idea tree,
+`/pathfinder` → `/critique` → `/define` → `/implement` chain: pathfinder grew the design tree,
 critique crystallized the decisions, define turned them into tickets — implement lands them as
 code. Consume that same context; don't re-derive it.
 

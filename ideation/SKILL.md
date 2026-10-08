@@ -24,7 +24,7 @@ The skill will:
 1. Restate the idea in your words — correct it if needed
 2. Fan the idea space out — many named directions per round, for you to react to and add to
 3. Go deep on whichever branch you find most interesting
-4. Write back to the relevant branch in IDEA-TREE.md (creating one from pathfinder's IDEA-TREE-TEMPLATE.md if none exists yet) and to GLOSSARY.md
+4. Write back to the relevant branch in DESIGN-TREE.md (creating one from pathfinder's DESIGN-TREE-TEMPLATE.md if none exists yet) and to GLOSSARY.md
 
 ## Workflows
 
@@ -46,8 +46,8 @@ The skill will:
 
 ### Document — capture what crystallizes
 - Add terms to GLOSSARY.md only when their definition has stabilized through dialogue
-- Update the branch's task line in IDEA-TREE.md when it resolves — one-line answer, unpursued directions noted as open threads
-- Land the directions not pursued in *Open threads* or Seeds — a round of volume isn't thrown away because one direction won
+- When the chosen direction passes critique's decision bar, write it to DECISIONS.md using critique's DECISIONS-TEMPLATE.md, with the directions set aside under **Alternatives considered**, and link the entry from the branch's task line in DESIGN-TREE.md
+- Otherwise it is an answer: a one-line answer on the task line, with the directions not pursued landed in *Open threads* or Seeds — a round of volume isn't thrown away because one direction won
 - Flag naming divergence: "You've called this both X and Y — pick one?"
 
 ## Rules
@@ -55,4 +55,4 @@ The skill will:
 - Diverge generates in volume; one question at a time governs converge and document
 - Park the user's choices — don't act on them until converge
 - Adopt user's terminology immediately; never introduce competing names
-- Use GLOSSARY-TEMPLATE.md for glossary structure; use pathfinder's IDEA-TREE-TEMPLATE.md if no idea tree exists yet
+- Use GLOSSARY-TEMPLATE.md for glossary structure; use pathfinder's DESIGN-TREE-TEMPLATE.md if no design tree exists yet

@@ -5,7 +5,7 @@ description: Build a throwaway artifact to answer a design or logic question. Us
 
 # prototype
 
-A prototype is **throwaway work that answers a question**. The question decides the shape — code, a rough document, a sketch, a stubbed flow, whatever is cheapest to build and react to. If this is a task dispatched from `/pathfinder`, the question comes from the task's line in IDEA-TREE.md; if it isn't obvious from there, ask.
+A prototype is **throwaway work that answers a question**. The question decides the shape — code, a rough document, a sketch, a stubbed flow, whatever is cheapest to build and react to. If this is a task dispatched from `/pathfinder`, the question comes from the task's line in DESIGN-TREE.md; if it isn't obvious from there, ask.
 
 ## Rules
 1. **Throwaway from day one, and clearly marked as such.** Put it where it's easy to find in context, but name it so it's obviously not production or final.
@@ -16,4 +16,4 @@ A prototype is **throwaway work that answers a question**. The question decides 
 6. **Delete or absorb when done.** Once it's answered its question, either delete it or fold the validated decision into the real thing — don't leave it rotting in the repo.
 
 ## When done
-The **answer** is the only thing worth keeping. Capture it — in IDEA-TREE.md if this was a pathfinder task, otherwise in a commit message, DECISIONS.md, or a note beside the prototype — along with the question it answered, before deleting the prototype.
+The **answer** is the only thing worth keeping. Capture it — in DESIGN-TREE.md if this was a pathfinder task, otherwise in a commit message, DECISIONS.md, or a note beside the prototype — along with the question it answered, before deleting the prototype.
