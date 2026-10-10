@@ -13,9 +13,8 @@ Every pathfinder session loads DESIGN-TREE.md and DECISIONS.md in full: the **st
 1. **Load the standard context**: DESIGN-TREE.md, DECISIONS.md and GLOSSARY.md. Note the line count of DESIGN-TREE.md and DECISIONS.md together.
 2. **Apply the mechanical cuts.** Done when no mechanical category's *Use when* still matches anywhere.
 3. **Gather the judgement candidates.** Check every judgement category against every branch, task, seed, open thread, note and entry. Done when each category has been checked across the whole standard context, with "none" recorded for a category that found nothing.
-4. **Present the candidates**, ordered by the lines each would remove, largest first. Quote each with its location and give the proposed cut. Ask which to apply.
-5. **Apply the approved cuts.**
-6. **Report**: the mechanical cuts made, the judgement cuts applied and declined, and the line count before and after.
+4. **Walk the candidates, one per question**, largest first by the lines each would remove. A candidate is one change to the design as the user would see it: a whole dead branch with its tasks, a pair of duplicates merged, one conflict, one unrecorded decision, the sediment in one section. For each, say what the material is about — the question it asked, what was settled and why — then the proposed cut, what remains afterwards, and your recommendation. Apply it if approved, then move to the next.
+5. **Report**, in the same terms: the mechanical cuts made, summarised by what they covered, the judgement cuts applied and declined, and the line count before and after.
 
 ## Mechanical cuts
 
@@ -33,6 +32,12 @@ Presented as candidates: each can lose something a later session needed.
 - **Duplicates** — *Use when* two tasks, seeds or open threads ask the same question. Merge them into one.
 - **Conflicts** — *Use when* an open task, seed or open thread contradicts a live decision or another task. Rewrite or remove it. Where the conflict suggests the decision is wrong rather than the task, keep both and name it in the report: that is a revisit for pathfinder to raise.
 - **Sediment** — *Use when* Notes, Seeds, Out of scope or GLOSSARY.md repeat what another file holds, or describe what no longer holds. Cut it, or cut it to a pointer.
+
+## Rules
+
+- One candidate per question, always. Don't batch.
+- Talk about what a reference describes, not the reference. A decision number, task name or location is never the subject of a sentence; at most it follows in parentheses so the user can find it.
+- Give a recommendation with each question.
 
 ## Files
 
