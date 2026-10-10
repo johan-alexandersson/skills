@@ -5,7 +5,7 @@ description: Investigate a question against primary sources and save cited findi
 
 # research
 
-Spin up a **background agent** to do the research, so you keep working while it reads. Always use Sonnet 5 for sub-agents. If this is a task dispatched from `/pathfinder`, the question comes from the task's line in DESIGN-TREE.md.
+Spin up a **background agent** to do the research, so you keep working while it reads. Always use Opus 5.5 (Low effort) for sub-agents. If this is a task dispatched from `/pathfinder`, the question comes from the task's line in DESIGN-TREE.md.
 
 Its job:
 
