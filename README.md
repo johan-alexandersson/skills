@@ -46,7 +46,7 @@ Clone the repo and link the skills you want into `~/.claude/skills`:
 - [Matt Pocock's skills](https://github.com/mattpocock/skills): `improve-codebase-architecture` and `teach` come from there. `critique` grew out of his `grill-me`, and its one-question-at-a-time interview with a recommended answer started as his.
 - [Antoine van der Lee's SwiftUI Agent Skill](https://github.com/AvdLee/SwiftUI-Agent-Skill): `swiftui-expert-skill` is vendored from there.
 - [Lauren Tan's (poteto) pstack](https://github.com/cursor/plugins/tree/main/pstack): `unslop` comes from there, with small modifications.
-- Pathfinder's design tree takes its name and idea from Frederik P. Brooks's *The Design of Design*.
+- Pathfinder's design tree takes its name and idea from Frederick P. Brooks's *The Design of Design*.
 
 ## License
 
